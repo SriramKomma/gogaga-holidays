@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Website</title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="logo"><i class="fab fa-phoenix-framework"></i>Gogaga Holidays</a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+
+        </ul>
+        <a href="#" class="book-now-btn">Book Now</a>
+    </nav>
+    <section id="main">
+        <div class="content">
+            <div class="main-text">
+                <strong>Explore The World <i class="fas fa-globe-americas"></i></strong>
+                <h1>It's a Big World Out There, Go Explore</h1>
+                <p>Do not follow where the path may lead. Go instead where there is no path and leave a trail</p>
+                <a href="#">Book Online</a>
+            </div>
+            <div class="main-img">
+                <img alt="Traveling" src="https://webstockreview.net/images/traveling-clipart-global-travel-4.png">
+            </div>
+        </div>
+        <div class="search-tour">
+            <form>
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Location <i class="fas fa-chevron-down"></i></span>
+                        <input type="text" name="location" placeholder="New York, USA" required />
+                    </div>
+                </div>
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Tour Date <i class="fas fa-chevron-down"></i></span>
+                        <input type="date" id="tourdate" name="tourdate" required />
+                    </div>
+                </div>
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Persons <i class="fas fa-chevron-down"></i></span>
+                        <input type="number" name="total-tourist" placeholder="5 Tourist" required />
+                    </div>
+                </div>
+                <div class="t-search-btn">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="trending">
+        <div class="trending-heading-container">
+            <div class="trending-heading">
+                <h2>Trending 2022</h2>
+                <p>A journey of a thousand miles must begin with a single step.</p>
+            </div>
+        </div>
+        <div class="trending-box-container">
+            <div class="swiper mySwipercard">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-b-img">
+                                <img alt="Travel" src="https://tse2.mm.bing.net/th?id=OIP.ev21rBSCGLwjDJ28YrBZ2wHaFj&pid=Api&P=0&h=180">
+                            </div>
+                            <div class="t-b-text">
+                                <a href="#">Kerala</a>
+                                <span>12 Places | 3 Activites</span>
+                            </div>
+                            <div class="price-book">
+                                <span class="t-price">14999/-</span>
+                                <a href="#" class="t-book-btn">Book Now</a>
+                            </div>
+                            <div class="agency-name">
+                                <span>Sriram Travels</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-b-img">
+                                <img alt="Travel" src="https://static2.tripoto.com/media/filter/tst/img/OgData/1537153061_faacebook2_11.png">
+                            </div>
+                            <div class="t-b-text">
+                                <a href="#">Gokarna</a>
+                                <span>5 Places | 1 Activites</span>
+                            </div>
+                            <div class="price-book">
+                                <span class="t-price">12999/-</span>
+                                <a href="#" class="t-book-btn">Book Now</a>
+                            </div>
+                            <div class="agency-name">
+                                <span>Sriram Travels</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-b-img">
+                                <img alt="Travel" src="https://tse1.mm.bing.net/th?id=OIP.bRZblM9Rr0Vcc2FaW99mlwHaE8&pid=Api&P=0&h=180">
+                            </div>
+                            <div class="t-b-text">
+                                <a href="#">Manali</a>
+                                <span>10 Places | 5 Activites</span>
+                            </div>
+                            <div class="price-book">
+                                <span class="t-price">16999/-</span>
+                                <a href="#" class="t-book-btn">Book Now</a>
+                            </div>
+                            <div class="agency-name">
+                                <span>Sriram Travels</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-b-img">
+                                <img alt="Travel" src="https://tse2.mm.bing.net/th?id=OIP.1shdcHWNvQ29Mkv0nPBliQHaEK&pid=Api&P=0&h=180">
+                            </div>
+                            <div class="t-b-text">
+                                <a href="#">WonderLa</a>
+                                <span>1 Place | 69 Activites</span>
+                            </div>
+                            <div class="price-book">
+                                <span class="t-price">1299/-</span>
+                                <a href="#" class="t-book-btn">Book Now</a>
+                            </div>
+                            <div class="agency-name">
+                                <span>Sriram Travels</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe">
+        <p>Receive Latest News, Updates, and other things every weak.</p>
+        <form>
+            <input type="email" name="subscribe" placeholder="Enter Your Email Address" required />
+            <button><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <strong><i class="fab fa-phoenix-framework"></i>Gogaga Holidays</strong>
+                <div class="footer-social">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <strong>Links</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Book Online</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <strong>Social</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Book Online</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <strong>External</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Book Online</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <strong>Contact</strong>
+                <span><i class="fas fa-map-marker-alt"></i>Kamareddy</span>
+                <span><i class="far fa-envelope"></i> <a href="#">sriramkomma2443@gmail.com</a></span>
+                <span><i class="fas fa-phone-square-alt"></i><a href="#"></a>709305723</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+        var swiper = new Swiper(".mySwipercard", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+
+        var swiper = new Swiper(".mySwipertest", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
